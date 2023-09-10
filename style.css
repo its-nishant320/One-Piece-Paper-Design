@@ -18,20 +18,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 html,body {
      height: 100%;
      width: 100%;
      background-color: #C6BDB4;
+     background-image: url(bg.jpg);
+     object-fit: cover;
 }
 
 #page1 {
     height: 120vh;
     width: 100vw;
-    background-color:#C6BDB4;
+    background-image: url(bg.jpg);
+    object-fit: cover;
     position: relative;
     overflow: hidden;
+    filter:brightness(-4px)
 }
 
 #main {
@@ -224,7 +229,8 @@ html,body {
 #page2 {
     height: 160vh;
     width: 100vw;
-    background-color:#C6BDB4;
+    background-image: url(bg.jpg);
+    object-fit: cover;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -305,7 +311,8 @@ html,body {
 #page3 {
     padding-bottom: 100px;
     position: relative;
-    background-color: #C4BCB3;
+    background-image: url(bg.jpg);
+    object-fit: cover;
 }
 
 #page3>h1 {
@@ -335,7 +342,8 @@ html,body {
     display: flex;
     align-content: center;
     justify-content: space-between;
-    background-color: #C6BDB4;
+    background-image: url(bg.jpg);
+    object-fit: cover;
 
 }
 
@@ -415,7 +423,8 @@ html,body {
 #page5 {
     padding: 25px 0;
     width: 100%;
-    background-color: #C4BCB3;
+    background-image: url(bg.jpg);
+    object-fit: cover;
     border-top: 1px solid #2f2f2f;
     border-bottom: 1px solid #2f2f2f;
 
@@ -451,7 +460,9 @@ html,body {
 #page6 {
     height: 100px;
     width: 100%;
-    background-color: #C4BCB3;
+    background-image: url(bg.jpg);
+    object-fit: cover;
+    
 }
 
 @keyframes scroll {
