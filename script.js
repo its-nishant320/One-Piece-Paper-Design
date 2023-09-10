@@ -21,7 +21,7 @@ tl.to("#page1",{
 
 tl.to("#page1",{
     y:"0vh",
-    rotate:360,
+    rotate:720,
     scale:1,
     duration:2,
     ease:"slow"
