@@ -32,7 +32,9 @@ html,body {
 #page1 {
     height: 120vh;
     width: 100vw;
+    background-color: #C3BBB2;
     background-image: url(bg.jpg);
+    background-blend-mode: soft-light;
     object-fit: cover;
     position: relative;
     overflow: hidden;
@@ -230,6 +232,8 @@ html,body {
     height: 160vh;
     width: 100vw;
     background-image: url(bg.jpg);
+    background-color: #C6BDB4;
+    background-blend-mode: soft-light;
     object-fit: cover;
     position: relative;
     overflow: hidden;
@@ -259,6 +263,7 @@ html,body {
     object-fit: cover;
     border: 1px solid #000;
     border-right: 1px solid #000;
+    transition: all ease 0.4s;
 }
 
 #page2-left>p {
@@ -279,6 +284,7 @@ html,body {
     width: 107.5%;
     object-fit: cover;
     border: 1px solid #000;
+    transition: all ease 0.4s;
 }
 
 #page2-left>h2 {
@@ -312,6 +318,8 @@ html,body {
     padding-bottom: 100px;
     position: relative;
     background-image: url(bg.jpg);
+    background-color: #C6BDB4;
+    background-blend-mode: soft-light;
     object-fit: cover;
 }
 
@@ -319,6 +327,8 @@ html,body {
     font-size: 470px;
     font-weight: 100;
     letter-spacing: -10px;
+    background-image: url(bg.jpg);
+    background-blend-mode: color-burn;
     background-color: #1C1C19;
     width: fit-content;
     color: #C4BCB3;
@@ -333,6 +343,7 @@ html,body {
     position: absolute;
     top: 0;
     right: 3%;
+    transition: all ease 0.4s;
 
 }
 
@@ -343,6 +354,8 @@ html,body {
     align-content: center;
     justify-content: space-between;
     background-image: url(bg.jpg);
+    background-color: #C6BDB4;
+    background-blend-mode: soft-light;
     object-fit: cover;
 
 }
@@ -423,11 +436,12 @@ html,body {
 #page5 {
     padding: 25px 0;
     width: 100%;
+    background-color: #C6BDB4;
+    background-blend-mode: soft-light;
     background-image: url(bg.jpg);
     object-fit: cover;
     border-top: 1px solid #2f2f2f;
     border-bottom: 1px solid #2f2f2f;
-
     white-space: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
@@ -461,6 +475,8 @@ html,body {
     height: 100px;
     width: 100%;
     background-image: url(bg.jpg);
+    background-blend-mode: soft-light;
+    background-color: #C6BDB4;
     object-fit: cover;
     
 }
