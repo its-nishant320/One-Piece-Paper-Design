@@ -285,6 +285,7 @@ html,body {
     object-fit: cover;
     border: 1px solid #000;
     transition: all ease 0.4s;
+    object-position: center;
 }
 
 #page2-left>h2 {
@@ -423,6 +424,7 @@ html,body {
 
 }
 
+
 #oval:hover img {
     transform: translateX(100%);
     transition: all ease 0.6s;
@@ -481,6 +483,7 @@ html,body {
     
 }
 
+
 @keyframes scroll {
     0% {
         transform: translateX(0);
@@ -490,6 +493,7 @@ html,body {
         transform: translateX(calc(-100% - 34px));
     }
 }
+
 
 #page5:hover h1{
     animation-play-state: paused;
