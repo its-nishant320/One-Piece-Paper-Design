@@ -9,7 +9,7 @@ tl.to("#page1",{
     y:"120vh",
     scale:0.6,
     duration:0
-})
+});
 
 tl.to("#page1",{
     y:"30vh",
