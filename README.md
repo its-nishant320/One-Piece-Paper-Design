@@ -11,7 +11,6 @@ Ahoy there, matey! Welcome to the One Piece Retro Design Animated Landing Page. 
 - [Getting Started](#getting-started) 🚀
 - [Customization](#customization) 🖌️
 - [Contributing](#contributing) 🤝
-- [License](#license) 📝
 
 ## Introduction 🏴‍☠️
 
@@ -71,8 +70,3 @@ We welcome contributions from fellow pirates and developers who want to enhance 
 
 Let's work together to make this landing page even more legendary!
 
-## License 📝
-
-This One Piece Retro Design Animated Landing Page is open-source software licensed under the [MIT License](LICENSE). Feel free to use, modify, and share it as you embark on your own adventures.
-
-Enjoy your journey through the world of One Piece! 🏴‍☠️⚓
